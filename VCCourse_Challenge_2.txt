@@ -1,0 +1,1 @@
+Step 120 - Final Challenge Part 2 (Git Bash):  Write one line of text.  Save this file as VCCourse_Challenge_2.txt
