@@ -1,0 +1,20 @@
+table {
+    border: red solid 2px;
+    padding: 2px;
+}
+
+tr th {
+    background-color: aquamarine;
+}
+
+tr td {
+    background-color: rgb(50, 2, 50);
+    color:antiquewhite;
+    text-align: center;
+    padding: 5px;
+}
+
+td:hover {
+    background-color: azure;
+    color:black;
+}
