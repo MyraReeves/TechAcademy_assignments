@@ -1,0 +1,8 @@
+p {
+    color:bisque;
+    background-color: darkmagenta;
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: underline;
+    border: bisque dotted 10px;
+}
