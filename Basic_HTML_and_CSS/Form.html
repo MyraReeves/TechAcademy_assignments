@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fort Assignment</title>
+    <title>Form Assignment - Step 230</title>
 </head>
 <body>
     <form>
@@ -12,11 +12,46 @@
         <input type="text" name="Space1"><br>
         <!-- When all the data for the form is looked at, the name is a way of grabbing the information for this one specific input -->
 
+        <label for="Space2">Second box:</label>
         <input type="text" name="Space2"><br>
+        <!-- Proper use of labels will benefit screen reader users (will read out loud the label, when the user is focused on the element) and users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <label> element, it toggles the input (this increases the hit area).  -->
+
+        <label for="Email">Email address:</label>
         <input type="email" name="Email"><br>
+        <!-- The "for" attribute of <label> must be equal to the "id" or "name" attribute of the related element to bind them together. A label can also be bound to an element by placing the element inside the <label> element. -->
+
         <input type="button" name="Button"><br>
+
+        <label for="Password">Your password:</label>
         <input type="password" name="Password"><br>
-        <input type="checkbox" name="Checkbox"><br>
+        <!-- The <label> tag defines a label for the following "input type" elements:
+            <input type="checkbox">
+            <input type="color">
+            <input type="date">
+            <input type="datetime-local">
+            <input type="email">
+            <input type="file">
+            <input type="month">
+            <input type="number">
+            <input type="password">
+            <input type="radio">
+            <input type="range">
+            <input type="search">
+            <input type="tel">
+            <input type="text">
+            <input type="time">
+            <input type="url">
+            <input type="week">
+        -->
+
+        Check all that apply:<br>
+        <input type="checkbox" name="Checkbox1"><label for="Checkbox1">Number one</label><br>
+        <input type="checkbox" name="Checkbox2"><label for="Checkbox2">Two</label><br>
+        <input type="checkbox" name="Checkbox3">
+        <label for="Checkbox3">#3</label><br>
+        <input type="checkbox" name="Checkbox4">
+        <label for="Checkbox4">Cuatro</label><br>
+
         <input type="submit" value="Submit"><br>
     </form>
 </body>
