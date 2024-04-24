@@ -22,7 +22,7 @@ h1 {
     STYLE ALL SQUARES IN THE ARRAY
 ----------------------------------------*/
 .container .squares:nth-child(-n+4) {
-    background-image: url(Images/Icons/face2.png);
+    background-image: url("../Images/Icons/face1.png");
     color:#fff;
     float: left;
     width: 100px;
@@ -42,7 +42,7 @@ h1 {
     font-weight: 900;
     text-align: center;
     margin: 0;
-    text-shadow: 2px 1px 4px rgba(0,0,0 0.8);
+    text-shadow: 2px 1px 4px rgba(0,0,0, 0.8);
 }
 
 /* ----------------------------------------------
