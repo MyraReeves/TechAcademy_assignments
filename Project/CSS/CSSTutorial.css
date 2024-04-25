@@ -31,7 +31,7 @@ h1 {
     border: 1px solid black;
     border-radius: 25%;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s 4s ease-in-out;
 }
 
 
@@ -103,4 +103,19 @@ button:hover {
     background-color: #33fb14;
     color:#fff;
     cursor: pointer;
+}
+
+
+
+/*---------------------------------
+DEFINE THE ANIMATION EFFECTS:
+---------------------------------*/
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px);
+        background-image: url("../Images/Icons/face2.png");
+    }
+    50% {
+        transform: translateY(330px);
+    }
 }
