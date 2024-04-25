@@ -2,6 +2,8 @@ body {
     background-color: #184352;
 }
 
+
+
 .wrap {
     top: 0;
     left: 0;
@@ -9,15 +11,23 @@ body {
     width: 100%;
 }
 
+
+
 .menu-container {
     top: 0;
-    left: o;
+    left: 0;
 
-    /* To the top edge of the screen */
-    position:absolute;
-    width:100%;
+    /* Ensure it is to the top, leftmost edge of the screen by using "absolute" */
+    position: absolute;
+
+    /* Make the menu span the entire page */
+    width: 100%;
+
+    /* Match the menu's background to the page's so that any unused space isn't noticeable */
     background-color: #184352;
 }
+
+
 
 .menu {
     font: bold 12px/18px sans-serif;
@@ -25,8 +35,11 @@ body {
     display: inline;
     margin: 0;
     padding: 0;
-    list-style:none;
+    list-style: none;
 }
+
+
+
 
 .menu li {
     color: #B3B3B3;
