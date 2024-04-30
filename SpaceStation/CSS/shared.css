@@ -84,7 +84,7 @@ section {
 .navbar {
     height: 105px;
     max-height: 340px;
-    display: inline-block;
+    display: block;
 }
 
 .container {
