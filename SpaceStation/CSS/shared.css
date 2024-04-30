@@ -152,7 +152,7 @@ section {
     border-radius: 6px;
     cursor: pointer;
     transition-property: background;
-    transition-duration: 4s;
+    transition-duration: 0.4s;
     transition-delay: 0s;
     transition-timing-function: ease-in-out;
 }
@@ -316,7 +316,7 @@ p {
 
 .photo-overlay {
     opacity: 0;
-    transition: opacity 0.1s;
+    transition: opacity 0.5s;
     border-radius: 10px;
     cursor: pointer;
 }
